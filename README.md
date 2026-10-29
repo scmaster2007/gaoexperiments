@@ -12,11 +12,19 @@ Hypotheses:
 2. Because the beta coefficients are traditionally very small, ADAM has a behavior of increasing its update by the magnitude of the learning rate, |\eta|. This means that it effectively maximizes the l_1 norm: does the extra sidestep of going "1" unit versus \sqrt(2) increase time complexity, potentially relating adaptive optimizers to saddle-to-saddle dynamics? -> easily testable with coding agent.
 3. There exists a clean conservation law for adaptive optimizers in a realistic functional space landscape which implies the existence of an a priori method to determine final function at EOT -> need to split this up into smaller subquestions further for easy testing + garnering intuition
 
+## Results so far
+
+Most of these scripts I ran on small CPU pilots to gauge the interestingness of the direction, the scripts are in the experiments/README.md file.
+
+- **Hypothesis 1:** 50% correct -> the feedback loop from normalization is real, but it minimizes a different variant of sharpness than the traditional sharpness metric. In fact, compared to GD, Adam ends up in a sharper region of the loss landscape. To also test that this is caused by the feedback loop, in one instance we freeze v_t -> this resulted in near identical result of GD and frozen adam.
+- **Hypothesis 2:** partly correct -> in lin reg., adam does not find the GD's closest-to-init solution that was theory in /thoughts. instead, it landed near sign-GD, which implies that my intuition about increasing by sign was correct. But, this sidestep does not seem to change time complexity.
+- **Hypothesis 3:** not tested yet still, need to break down into smaller theoretical questions that I can think about + run.
+
 ## Layout
 
 ```
 aixi/          Earlier AIXI experiments: exact Solomonoff-style prior vs. trained transformers (experiments 1–4). See aixi/README.md.
-experiments/   Quick experiments on the hypotheses above and the follow-up questions in thoughts/
+experiments/   Quick experiments on the hypotheses above and the follow-up questions in thoughts/ (findings in experiments/README.md)
 thoughts/      ideation on specific papers that cover same subject material, exist to serve as notes repository + add to personal intuition
 ```
 
