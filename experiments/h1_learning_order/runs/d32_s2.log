@@ -1,0 +1,5 @@
+[d32 s2] step     0 mean acc 0.5067  (2s)
+[d32 s2] step    25 mean acc 0.5204  (5s)
+[d32 s2] step    50 mean acc 0.5243  (7s)
+[d32 s2] step   100 mean acc 0.5335  (11s)
+[d32 s2] step   200 mean acc 0.5537  (15s)
