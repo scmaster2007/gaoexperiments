@@ -4,5 +4,6 @@ I thought that this paper was insightful in that it implies there exists a real 
 
 Follow up questions: Perhaps we could test out some alternative measures to "complexity" and see if this same phenomenon persists: a few ideas that are popping up are bit length, amount of variance in an image / question, kolgomorov complexity, etc... If the same phenomenon is observed, then that implies that the notion of complexity can be simplified further than simply the accuracy of the model on the task, which presupposes an innate "language" of complexity and structure in a dataset that can be measured. 
 
+### On the implicit bias in deep-learning algorithms
 
-
+This paper shows that models are 
