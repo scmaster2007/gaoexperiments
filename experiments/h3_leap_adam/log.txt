@@ -1,0 +1,128 @@
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 10, 'seed': 0, 't_learn': [10, 40, 140]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 10, 'seed': 1, 't_learn': [10, 40, 120]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 40, 'seed': 1, 't_learn': [20, 110, 240]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 10, 'seed': 2, 't_learn': [10, 40, 130]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 10, 'seed': 3, 't_learn': [10, 40, 170]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 20, 'seed': 0, 't_learn': [10, 60, 160]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 20, 'seed': 1, 't_learn': [10, 70, 180]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 40, 'seed': 2, 't_learn': [20, 90, 220]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 40, 'seed': 0, 't_learn': [20, 90, 220]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 20, 'seed': 3, 't_learn': [10, 80, 200]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 20, 'seed': 2, 't_learn': [10, 70, 190]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 10, 'seed': 0, 't_learn': [20, 30, 60]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 10, 'seed': 1, 't_learn': [30, 30, 50]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 10, 'seed': 2, 't_learn': [20, 30, 50]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 10, 'seed': 3, 't_learn': [20, 30, 50]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 40, 'seed': 3, 't_learn': [10, 110, 250]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 20, 'seed': 1, 't_learn': [20, 40, 80]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 20, 'seed': 0, 't_learn': [30, 30, 70]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 20, 'seed': 3, 't_learn': [30, 40, 90]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 20, 'seed': 2, 't_learn': [20, 30, 80]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 40, 'seed': 0, 't_learn': [20, 40, 100]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 40, 'seed': 1, 't_learn': [20, 40, 110]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 80, 'seed': 0, 't_learn': [20, 120, 290]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 40, 'seed': 2, 't_learn': [20, 40, 100]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 40, 'seed': 3, 't_learn': [20, 50, 140]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 80, 'seed': 1, 't_learn': [20, 120, 290]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 80, 'seed': 2, 't_learn': [20, 130, 280]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 80, 'seed': 0, 't_learn': [30, 50, 160]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 80, 'seed': 1, 't_learn': [30, 50, 150]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.05, 'd': 80, 'seed': 3, 't_learn': [20, 120, 280]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 80, 'seed': 2, 't_learn': [30, 60, 150]}
+{'target': 'leap1', 'opt': 'sgd', 'lr': 0.1, 'd': 80, 'seed': 3, 't_learn': [30, 60, 170]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 10, 'seed': 0, 't_learn': [30, 150, 350]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 10, 'seed': 1, 't_learn': [30, 140, 330]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 10, 'seed': 2, 't_learn': [30, 140, 330]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 10, 'seed': 3, 't_learn': [30, 150, 370]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 20, 'seed': 0, 't_learn': [40, 190, 450]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 20, 'seed': 1, 't_learn': [50, 210, 460]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 20, 'seed': 3, 't_learn': [50, 220, 490]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 20, 'seed': 2, 't_learn': [50, 200, 490]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 10, 'seed': 0, 't_learn': [10, 60, 140]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 40, 'seed': 0, 't_learn': [60, 280, 630]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 10, 'seed': 1, 't_learn': [10, 50, 120]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 10, 'seed': 2, 't_learn': [10, 50, 130]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 40, 'seed': 1, 't_learn': [70, 280, 650]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 40, 'seed': 3, 't_learn': [60, 280, 640]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 20, 'seed': 0, 't_learn': [20, 80, 170]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 10, 'seed': 3, 't_learn': [10, 60, 150]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 40, 'seed': 2, 't_learn': [60, 280, 610]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 20, 'seed': 1, 't_learn': [20, 80, 180]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 20, 'seed': 3, 't_learn': [20, 80, 190]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 20, 'seed': 2, 't_learn': [20, 80, 190]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 40, 'seed': 0, 't_learn': [20, 110, 250]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 40, 'seed': 2, 't_learn': [20, 110, 240]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 40, 'seed': 1, 't_learn': [30, 110, 250]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 80, 'seed': 0, 't_learn': [80, 340, 780]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 40, 'seed': 3, 't_learn': [20, 110, 250]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 80, 'seed': 2, 't_learn': [70, 330, 800]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 80, 'seed': 0, 't_learn': [30, 130, 310]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 80, 'seed': 3, 't_learn': [80, 340, 780]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 10, 'seed': 1, 't_learn': [230]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.001, 'd': 80, 'seed': 1, 't_learn': [80, 330, 790]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 10, 'seed': 0, 't_learn': [220]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 80, 'seed': 1, 't_learn': [30, 130, 310]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 10, 'seed': 2, 't_learn': [240]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 80, 'seed': 2, 't_learn': [30, 120, 320]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 10, 'seed': 3, 't_learn': [250]}
+{'target': 'leap1', 'opt': 'adam', 'lr': 0.003, 'd': 80, 'seed': 3, 't_learn': [30, 140, 320]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 20, 'seed': 0, 't_learn': [500]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 20, 'seed': 2, 't_learn': [650]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 20, 'seed': 1, 't_learn': [720]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 20, 'seed': 3, 't_learn': [580]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 10, 'seed': 0, 't_learn': [70]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 10, 'seed': 1, 't_learn': [70]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 10, 'seed': 2, 't_learn': [90]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 10, 'seed': 3, 't_learn': [80]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 20, 'seed': 0, 't_learn': [150]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 20, 'seed': 1, 't_learn': [130]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 20, 'seed': 2, 't_learn': [120]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 20, 'seed': 3, 't_learn': [140]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 40, 'seed': 0, 't_learn': [220]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 40, 'seed': 2, 't_learn': [1850]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 40, 'seed': 1, 't_learn': [1920]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 40, 'seed': 2, 't_learn': [280]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 40, 'seed': 1, 't_learn': [290]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 40, 'seed': 3, 't_learn': [280]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 40, 'seed': 0, 't_learn': [2320]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 40, 'seed': 3, 't_learn': [2680]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 80, 'seed': 2, 't_learn': [530]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 80, 'seed': 0, 't_learn': [790]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 80, 'seed': 3, 't_learn': [670]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 10, 'seed': 0, 't_learn': [340]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 10, 'seed': 1, 't_learn': [350]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 10, 'seed': 2, 't_learn': [290]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.1, 'd': 80, 'seed': 1, 't_learn': [890]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 10, 'seed': 3, 't_learn': [410]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 20, 'seed': 1, 't_learn': [610]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 20, 'seed': 0, 't_learn': [580]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 20, 'seed': 3, 't_learn': [610]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 20, 'seed': 2, 't_learn': [670]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 80, 'seed': 2, 't_learn': [3330]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 40, 'seed': 0, 't_learn': [1280]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 40, 'seed': 2, 't_learn': [1240]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 40, 'seed': 1, 't_learn': [1230]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 10, 'seed': 0, 't_learn': [140]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 40, 'seed': 3, 't_learn': [1230]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 10, 'seed': 1, 't_learn': [140]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 10, 'seed': 2, 't_learn': [120]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 10, 'seed': 3, 't_learn': [160]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 20, 'seed': 0, 't_learn': [240]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 80, 'seed': 0, 't_learn': [5160]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 20, 'seed': 1, 't_learn': [250]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 20, 'seed': 2, 't_learn': [270]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 20, 'seed': 3, 't_learn': [240]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 40, 'seed': 2, 't_learn': [440]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 40, 'seed': 0, 't_learn': [610]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 40, 'seed': 1, 't_learn': [480]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 40, 'seed': 3, 't_learn': [550]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 80, 'seed': 0, 't_learn': [2640]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 80, 'seed': 3, 't_learn': [6940]}
+{'target': 'leap3', 'opt': 'sgd', 'lr': 0.05, 'd': 80, 'seed': 1, 't_learn': [6710]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 80, 'seed': 1, 't_learn': [1110]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 80, 'seed': 2, 't_learn': [970]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 80, 'seed': 0, 't_learn': [1330]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 80, 'seed': 2, 't_learn': [2180]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.003, 'd': 80, 'seed': 3, 't_learn': [1470]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 80, 'seed': 1, 't_learn': [3830]}
+{'target': 'leap3', 'opt': 'adam', 'lr': 0.001, 'd': 80, 'seed': 3, 't_learn': [3210]}

@@ -1,0 +1,9 @@
+measure,rho,rho | log2p,"rho | log2p, bayes_acc"
+K,-0.24,0.067,0.098
+log2p,0.271,,
+avg_sensitivity,-0.626,-0.593,-0.561
+lz,-0.221,-0.187,-0.17
+log2_runtime,-0.333,-0.219,-0.196
+relevant_vars,-0.118,-0.022,0.003
+fourier_degree,0.017,0.123,0.116
+bayes_acc,0.511,0.451,

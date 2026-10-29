@@ -1,0 +1,54 @@
+1. At matched training loss (0.1): median over 3 seeds
+                   step_matched  sharp_matched  trace_matched  acc_matched
+opt         lr                                                            
+gd          0.050        4200.0         40.631        605.055        0.960
+            0.100        2400.0         20.643        470.998        0.956
+            0.200        1700.0         10.722        421.108        0.958
+momentum    0.005        3600.0        140.958       1049.368        0.964
+            0.010        1900.0        145.231       1048.438        0.966
+            0.020        1000.0        147.706       1058.139        0.963
+adam        0.001         400.0        108.526       1098.630        0.962
+            0.010         200.0         44.151        837.156        0.966
+            0.030         400.0        246.969       2572.897        0.947
+adam_frozen 0.001         500.0         91.853        969.164        0.970
+            0.010         200.0         44.151        837.156        0.966
+            0.030         400.0        247.442       2572.374        0.947 
+
+2. End of training (5000 steps)
+                   train_loss_final  sharp_final  trace_final  acc_final  test_loss_final
+opt         lr                                                                           
+gd          0.050            0.0790      40.4782     652.1041     0.9632           0.1428
+            0.100            0.0407      20.2184     608.3927     0.9632           0.1074
+            0.200            0.0277      10.2549     575.2288     0.9691           0.1013
+momentum    0.005            0.0695     184.5078    1185.7564     0.9699           0.1281
+            0.010            0.0293     226.4197    1630.0811     0.9741           0.0993
+            0.020            0.0112     190.1373    1655.0190     0.9724           0.0883
+adam        0.001            0.0006     137.1716    1629.2155     0.9683           0.0806
+            0.010            0.0003      25.9184    1117.8598     0.9591           0.0860
+            0.030            0.0194     244.8071    2533.8631     0.9457           0.1417
+adam_frozen 0.001            0.0013     109.0853    1521.2891     0.9716           0.0800
+            0.010            0.0002      44.5844    1280.9726     0.9616           0.0863
+            0.030            0.0018     242.9044    2565.1148     0.9382           0.1122 
+
+3. Feedback: sharpness / stability threshold at the end, and fraction of checkpoints after step 1000
+   within 15% of the threshold (raw H for gd/momentum, preconditioned P^-1 H for adam)
+                   edge_ratio_final  frac_at_edge
+opt         lr                                   
+gd          0.050             1.012         1.000
+            0.100             1.011         1.000
+            0.200             1.025         1.000
+momentum    0.005             0.243         0.000
+            0.010             0.596         0.000
+            0.020             1.001         0.732
+adam        0.001             0.988         1.000
+            0.010             0.980         1.000
+            0.030             0.991         1.000
+adam_frozen 0.001             0.962         0.951
+            0.010             0.983         1.000
+            0.030             0.717         0.000 
+
+4. Spearman across all 36 runs
+   sharp_matched  vs test acc at matched loss: rho = -0.21 (p = 0.221)
+   trace_matched  vs test acc at matched loss: rho = -0.26 (p = 0.119)
+   sharp_final    vs final test acc:          rho = -0.08 (p = 0.633)
+   trace_final    vs final test acc:          rho = -0.14 (p = 0.409)

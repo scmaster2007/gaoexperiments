@@ -1,0 +1,1 @@
+{"d": 32, "layers": 2, "seed": 2, "steps": 3000, "batch": 128, "lr": 0.001, "threads": 1, "orders": 4, "out": "experiments/h1_learning_order/runs/d32_s2", "params": 25793, "time": 132.1782341003418}
