@@ -9,6 +9,7 @@ Run everything from the repo root. These are small-scale pilots on a laptop CPU 
 | `h2_adaptive_implicit_bias/` | On the implicit bias in deep-learning algorithms | Does Adam keep GD's min-L2 implicit bias? Is its bias set by the landscape or by the optimizer? |
 | `h3_leap_adam/` | Leap complexity and saddle-to-saddle dynamics | Does Adam keep the staircase order and the leap-dependent scaling with dimension? |
 | `h4_adam_sharpness/` | README hypothesis 1 | Does √v_t normalization act as negative feedback that makes Adam minimize sharpness? |
+| `stage1_cifar_mlp/` | Stage 1 (GPU runs, Oct 29–31) | Adam, AdamW and SGD on deep ReLU MLPs, CIFAR-10 |
 
 ## H1: learning order on the exact AIXI prior
 

@@ -1,0 +1,88 @@
+python3 -u adamwide.py --depth 8 --width 8192 --p 0.0 --seed 0
+python3 -u adamwide.py --depth 8 --width 8192 --p 0.0 --seed 1
+python3 -u adamwide.py --depth 8 --width 8192 --p 0.5 --seed 0
+python3 -u adamwide.py --depth 8 --width 8192 --p 0.5 --seed 1
+python3 -u adamwide.py --depth 8 --width 8192 --p 1.0 --seed 0
+python3 -u adamwide.py --depth 8 --width 8192 --p 1.0 --seed 1
+python3 -u adamwide.py --depth 4 --width 8192 --p 0.0 --seed 0
+python3 -u adamwide.py --depth 4 --width 8192 --p 0.0 --seed 1
+python3 -u adamwide.py --depth 4 --width 8192 --p 0.5 --seed 0
+python3 -u adamwide.py --depth 4 --width 8192 --p 0.5 --seed 1
+python3 -u adamwide.py --depth 4 --width 8192 --p 1.0 --seed 0
+python3 -u adamwide.py --depth 4 --width 8192 --p 1.0 --seed 1
+python3 -u adamwide.py --depth 8 --width 4096 --p 0.0 --seed 0
+python3 -u adamwide.py --depth 8 --width 4096 --p 0.0 --seed 1
+python3 -u adamwide.py --depth 8 --width 4096 --p 0.5 --seed 0
+python3 -u adamwide.py --depth 8 --width 4096 --p 0.5 --seed 1
+python3 -u adamwide.py --depth 8 --width 4096 --p 1.0 --seed 0
+python3 -u adamwide.py --depth 8 --width 4096 --p 1.0 --seed 1
+python3 -u adamwide.py --depth 2 --width 8192 --p 0.0 --seed 0
+python3 -u adamwide.py --depth 2 --width 8192 --p 0.0 --seed 1
+python3 -u adamwide.py --depth 2 --width 8192 --p 0.5 --seed 0
+python3 -u adamwide.py --depth 2 --width 8192 --p 0.5 --seed 1
+python3 -u adamwide.py --depth 2 --width 8192 --p 1.0 --seed 0
+python3 -u adamwide.py --depth 2 --width 8192 --p 1.0 --seed 1
+python3 -u adamwide.py --depth 4 --width 4096 --p 0.0 --seed 0
+python3 -u adamwide.py --depth 4 --width 4096 --p 0.0 --seed 1
+python3 -u adamwide.py --depth 4 --width 4096 --p 0.5 --seed 0
+python3 -u adamwide.py --depth 4 --width 4096 --p 0.5 --seed 1
+python3 -u adamwide.py --depth 4 --width 4096 --p 1.0 --seed 0
+python3 -u adamwide.py --depth 4 --width 4096 --p 1.0 --seed 1
+python3 -u adamwide.py --depth 2 --width 4096 --p 0.0 --seed 0
+python3 -u adamwide.py --depth 2 --width 4096 --p 0.0 --seed 1
+python3 -u adamwide.py --depth 2 --width 4096 --p 0.5 --seed 0
+python3 -u adamwide.py --depth 2 --width 4096 --p 0.5 --seed 1
+python3 -u adamwide.py --depth 2 --width 4096 --p 1.0 --seed 0
+python3 -u adamwide.py --depth 2 --width 4096 --p 1.0 --seed 1
+python3 -u adamwide.py --depth 8 --width 1024 --p 0.0 --seed 0
+python3 -u adamwide.py --depth 8 --width 1024 --p 0.0 --seed 1
+python3 -u adamwide.py --depth 8 --width 1024 --p 0.5 --seed 0
+python3 -u adamwide.py --depth 8 --width 1024 --p 0.5 --seed 1
+python3 -u adamwide.py --depth 8 --width 1024 --p 1.0 --seed 0
+python3 -u adamwide.py --depth 8 --width 1024 --p 1.0 --seed 1
+python3 -u adamwide.py --depth 4 --width 1024 --p 0.0 --seed 0
+python3 -u adamwide.py --depth 4 --width 1024 --p 0.0 --seed 1
+python3 -u adamwide.py --depth 4 --width 1024 --p 0.5 --seed 0
+python3 -u adamwide.py --depth 4 --width 1024 --p 0.5 --seed 1
+python3 -u adamwide.py --depth 4 --width 1024 --p 1.0 --seed 0
+python3 -u adamwide.py --depth 4 --width 1024 --p 1.0 --seed 1
+python3 -u adamwide.py --depth 2 --width 1024 --p 0.0 --seed 0
+python3 -u adamwide.py --depth 2 --width 1024 --p 0.0 --seed 1
+python3 -u adamwide.py --depth 2 --width 1024 --p 0.5 --seed 0
+python3 -u adamwide.py --depth 2 --width 1024 --p 0.5 --seed 1
+python3 -u adamwide.py --depth 2 --width 1024 --p 1.0 --seed 0
+python3 -u adamwide.py --depth 2 --width 1024 --p 1.0 --seed 1
+python3 -u adamwide.py --depth 8 --width 256 --p 0.0 --seed 0
+python3 -u adamwide.py --depth 8 --width 256 --p 0.0 --seed 1
+python3 -u adamwide.py --depth 8 --width 256 --p 0.5 --seed 0
+python3 -u adamwide.py --depth 8 --width 256 --p 0.5 --seed 1
+python3 -u adamwide.py --depth 8 --width 256 --p 1.0 --seed 0
+python3 -u adamwide.py --depth 8 --width 256 --p 1.0 --seed 1
+python3 -u adamwide.py --depth 4 --width 256 --p 0.0 --seed 0
+python3 -u adamwide.py --depth 4 --width 256 --p 0.0 --seed 1
+python3 -u adamwide.py --depth 4 --width 256 --p 0.5 --seed 0
+python3 -u adamwide.py --depth 4 --width 256 --p 0.5 --seed 1
+python3 -u adamwide.py --depth 4 --width 256 --p 1.0 --seed 0
+python3 -u adamwide.py --depth 4 --width 256 --p 1.0 --seed 1
+python3 -u adamwide.py --depth 2 --width 256 --p 0.0 --seed 0
+python3 -u adamwide.py --depth 2 --width 256 --p 0.0 --seed 1
+python3 -u adamwide.py --depth 2 --width 256 --p 0.5 --seed 0
+python3 -u adamwide.py --depth 2 --width 256 --p 0.5 --seed 1
+python3 -u adamwide.py --depth 2 --width 256 --p 1.0 --seed 0
+python3 -u adamwide.py --depth 2 --width 256 --p 1.0 --seed 1
+python3 -u rich.py --opt adam --depth 4 --width 1024 --batch 128 --lr 0.001 --eps 1e-08 --sched const --epochs 500 --seed 0 --data_seed 1
+python3 -u rich.py --opt adam --depth 4 --width 1024 --batch 128 --lr 0.001 --eps 1e-08 --sched const --epochs 500 --seed 0 --data_seed 2
+python3 -u rich.py --opt adam --depth 4 --width 1024 --batch 128 --lr 0.001 --eps 1e-08 --sched const --epochs 500 --seed 1 --data_seed 0
+python3 -u rich.py --opt adam --depth 4 --width 1024 --batch 128 --lr 0.001 --eps 1e-08 --sched const --epochs 500 --seed 2 --data_seed 0
+python3 -u rich.py --opt sgd --depth 4 --width 1024 --batch 128 --lr 0.01 --eps 1e-08 --sched const --epochs 500 --seed 0 --data_seed 1
+python3 -u rich.py --opt sgd --depth 4 --width 1024 --batch 128 --lr 0.01 --eps 1e-08 --sched const --epochs 500 --seed 0 --data_seed 2
+python3 -u rich.py --opt sgd --depth 4 --width 1024 --batch 128 --lr 0.01 --eps 1e-08 --sched const --epochs 500 --seed 1 --data_seed 0
+python3 -u rich.py --opt sgd --depth 4 --width 1024 --batch 128 --lr 0.01 --eps 1e-08 --sched const --epochs 500 --seed 2 --data_seed 0
+python3 -u rich.py --opt adam --depth 16 --width 1024 --batch 128 --lr 0.001 --eps 1e-08 --sched const --epochs 500 --seed 0 --data_seed 1
+python3 -u rich.py --opt adam --depth 16 --width 1024 --batch 128 --lr 0.001 --eps 1e-08 --sched const --epochs 500 --seed 0 --data_seed 2
+python3 -u rich.py --opt adam --depth 16 --width 1024 --batch 128 --lr 0.001 --eps 1e-08 --sched const --epochs 500 --seed 1 --data_seed 0
+python3 -u rich.py --opt adam --depth 16 --width 1024 --batch 128 --lr 0.001 --eps 1e-08 --sched const --epochs 500 --seed 2 --data_seed 0
+python3 -u rich.py --opt sgd --depth 16 --width 1024 --batch 128 --lr 0.01 --eps 1e-08 --sched const --epochs 500 --seed 0 --data_seed 1
+python3 -u rich.py --opt sgd --depth 16 --width 1024 --batch 128 --lr 0.01 --eps 1e-08 --sched const --epochs 500 --seed 0 --data_seed 2
+python3 -u rich.py --opt sgd --depth 16 --width 1024 --batch 128 --lr 0.01 --eps 1e-08 --sched const --epochs 500 --seed 1 --data_seed 0
+python3 -u rich.py --opt sgd --depth 16 --width 1024 --batch 128 --lr 0.01 --eps 1e-08 --sched const --epochs 500 --seed 2 --data_seed 0
