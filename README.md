@@ -20,11 +20,20 @@ Most of these scripts I ran on small CPU pilots to gauge the interestingness of 
 - **Hypothesis 2:** partly correct -> in lin reg., adam does not find the GD's closest-to-init solution that was theory in /thoughts. instead, it landed near sign-GD, which implies that my intuition about increasing by sign was correct. But, this sidestep does not seem to change time complexity.
 - **Hypothesis 3:** not tested yet still, need to break down into smaller theoretical questions that I can think about + run.
 
+New Open Question: The empirical neural tangent kernel (eNTK) is a matrix that describes the behavior of the gradient step and differs from the infinite-width NTK in that it is used for much more realistic width-networks. How does the eNTK change under Adam vs. SGD at realistic depths and sizes? Is there a general pattern of change in these two corresponding circumstances?
+
+^^ Initial Experiment: More in experiments/, but the basic setup was that I had ReLU MLPs on CIFAR-10 trained with Adam and SGD. During this, I computed the empirical NTK on 500 fixe images at 56 checkpoints. For Adam, I also tracked the preconditioned kernel = J·diag(1/(√v̂+ε))·Jᵀ (kernel of Adam without momentum). I specifically measured how fast the kernel changes, how direct its "path" is, and whether or not there exists some fixed point where the optimizer settles. 
+
+Results: 
+- SGD's eNTK reached 90\% of its total change by epoch 20, but Adam took considerably longer, with it taking 287/437 epochs.
+- Over the last 100 epochs, Adam's eNTK changed way faster per epoch than SGD's. 
+- SGD's rate of change fell 6 to 7.5 times, but this was much different than adam, as Adam rate of change did not even fall at depth 4. 
+
 ## Layout
 
 ```
 aixi/          Earlier AIXI experiments: exact Solomonoff-style prior vs. trained transformers (experiments 1–4). See aixi/README.md.
-experiments/   Quick experiments on the hypotheses above and the follow-up questions in thoughts/ (findings in experiments/README.md)
+experiments/   Quick experiments on the hypotheses above and the follow-up questions in thoughts/ (findings in experiments/README.md), as well as the experiments on the gpu clusters testing eNTK + recreation. 
 thoughts/      ideation on specific papers that cover same subject material, exist to serve as notes repository + add to personal intuition
 ```
 

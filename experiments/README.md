@@ -10,6 +10,7 @@ Run everything from the repo root. These are small-scale pilots on a laptop CPU 
 | `h3_leap_adam/` | Leap complexity and saddle-to-saddle dynamics | Does Adam keep the staircase order and the leap-dependent scaling with dimension? |
 | `h4_adam_sharpness/` | README hypothesis 1 | Does √v_t normalization act as negative feedback that makes Adam minimize sharpness? |
 | `stage1_cifar_mlp/` | Stage 1 (GPU runs, Oct 29–31) | Adam, AdamW and SGD on deep ReLU MLPs, CIFAR-10 |
+| `entry2_ntk_adam_vs_sgd/` | Gap B2 (GPU runs, Nov 2) | How does the empirical NTK change during training under Adam vs SGD? |
 
 ## H1: learning order on the exact AIXI prior
 
